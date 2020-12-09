@@ -22,6 +22,7 @@ function generadorMinutos(goles) {
     let minuto = Math.round(Math.random()*90);
     resultado.push(minuto);
   }
+  //prueba
   resultado = ordenarMinutos(resultado);
   return resultado;
 }
